@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/coffee-avatar-brown.png";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
@@ -12,35 +12,35 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A LITTLE <b className="purple"> ABOUT (ME) &#123; </b>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I was born in Mexico City 🇲🇽 and I love coffee ☕ <b className="purple">;</b>
               <br />
-              <br />I am fluent in classics like
+              <br />I love working with people that I can learn from and <b className="purple"> build great things together;</b>
+              <br />
+              <br />My favourite programming languages are:
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                <b className="purple"> Javascript, Java & C++ </b><b className="purple">;</b>
               </i>
               <br />
               <br />
-              My current focus is on &nbsp;
+              My goal in life is to&nbsp;
               <i>
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
-                </b>
+                  learn as much as possible and contribute to society with that knowledge 
+                </b><b className="purple">;</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with
+              I am particularly interested in:
               <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
-              </i>
-                &nbsp; like
-              <i>
-                <b className="purple"> Node.js and React.js</b>
-              </i>
+                <b className="purple"> IoT, Machine Learning & Cloud Computing </b>
+              </i><b className="purple">;</b>
+              <br />
+              <h1 style={{ fontSize: "2.6em", "padding-top": "1em" }}>
+                <b className="purple">&#125; </b>
+              </h1>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -51,14 +51,11 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1>Let's connect</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/hecarrillo"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -66,19 +63,10 @@ function Home2() {
                   <i className="fab fa-github"></i>
                 </a>
               </li>
+              
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/hecarrilloe/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/carrillo.h/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
