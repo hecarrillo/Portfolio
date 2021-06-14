@@ -7,6 +7,10 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
+import { FaPython, FaJava, FaAws } from "react-icons/fa"
+import { IoLogoJavascript } from "react-icons/io"
+import { DiGitBranch } from "react-icons/di"
+import { SiCplusplus, SiMathworks, SiReact, SiMysql, SiGraphql, SiUbuntu, SiPostman, SiAtom, SiVisualstudio} from "react-icons/si"
 
 function About() {
   return (
@@ -39,27 +43,80 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
-          <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-java-plain-wordmark" />
-          <Techstack iconName="devicon-amazonwebservices-plain-wordmark" />
-          <Techstack iconName="devicon-matlab-plain" />
-          <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-graphql-plain-wordmark" />
-          <Techstack iconName="devicon-mysql-plain-wordmark" />
-
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <FaPython/>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <FaJava/>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <IoLogoJavascript/>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <FaAws/>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <DiGitBranch/>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <SiCplusplus></SiCplusplus>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <SiMathworks></SiMathworks>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <SiReact></SiReact>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <SiMysql></SiMysql>
+            </Col>
+          </div>
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <SiGraphql></SiGraphql>
+            </Col>
+          </div>
 
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-linux-plain" />
-          <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-postman" />
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <SiUbuntu></SiUbuntu>
+            </Col>
+          </div>
+
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <SiAtom></SiAtom>
+            </Col>
+          </div>
+
+          <div>
+            <Col xs={4} md={2} className="tech-icons">
+              <SiVisualstudio></SiVisualstudio>
+            </Col>
+          </div>
+
         </Row>
         <Github />
       </Container>

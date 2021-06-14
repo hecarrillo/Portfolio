@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/coffe_icon_w.png";
+import myImg from "../../Assets/coffe_icon.png";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
+import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram} from "react-icons/ai"
 
 function Home2() {
   return (
@@ -60,7 +61,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <i className="fab fa-github"></i>
+                <AiOutlineGithub/>
                 </a>
               </li>
               
@@ -71,7 +72,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <i className="fab fa-linkedin-in"></i>
+                  <AiFillLinkedin/>
                 </a>
               </li>
               <li className="social-icons">
@@ -81,7 +82,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <AiOutlineInstagram/>
                 </a>
               </li>
             </ul>

@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../Assets/logo.png";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import {AiOutlineHome} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiOutlineProject, AiOutlineUnorderedList} from "react-icons/ai"
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -57,8 +57,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <li><a href="{{ site.baseurl }}/index.html"><i class='far fa-user'></i> Home</a></li>
- About
+                <AiOutlineUser/> About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -67,7 +66,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fab fa-codepen"></i> Projects
+                <AiOutlineProject/> Projects
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -76,7 +75,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-file-alt"></i> Resume
+                <AiOutlineUnorderedList/> Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>

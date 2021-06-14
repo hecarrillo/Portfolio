@@ -2,6 +2,8 @@ import React from "react";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram} from "react-icons/ai"
+import { FaHackerrank, FaTelegram} from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -19,7 +21,7 @@ function Footer() {
                 href="https://github.com/hecarrillo"
                 style={{ color: "white" }}
               >
-                <i className="fab fa-github"></i>
+                <AiOutlineGithub></AiOutlineGithub>
               </a>
             </li>
 
@@ -28,7 +30,7 @@ function Footer() {
                 href="https://www.hackerrank.com/h_carrillo"
                 style={{ color: "white" }}
               >
-                <i className="fab fa-hackerrank"></i>
+                <FaHackerrank/>
               </a>
             </li>
 
@@ -37,7 +39,7 @@ function Footer() {
                 href="https://t.me/hector_carrillo"
                 style={{ color: "white" }}
               >
-                <i className="fab fa-telegram"></i>
+                <FaTelegram/>
               </a>
             </li>
             
@@ -46,7 +48,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/hecarrilloe/"
                 style={{ color: "white" }}
               >
-                <i className="fab fa-linkedin-in"></i>
+                <AiFillLinkedin/>
               </a>
             </li>
             <li className="social-icons">
@@ -54,7 +56,7 @@ function Footer() {
                 href="https://www.instagram.com/carrillo.h/"
                 style={{ color: "white" }}
               >
-                <i className="fab fa-instagram"></i>
+                <AiOutlineInstagram/>
               </a>
             </li>
           </ul>

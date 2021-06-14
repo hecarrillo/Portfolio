@@ -7,6 +7,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import axios from "axios";
 import pdf from "../../Assets/Hector_CV.pdf";
+import { AiOutlineCloudDownload } from "react-icons/ai"
 
 function Resume() {
   // const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -35,7 +36,7 @@ function Resume() {
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-            <i className="fas fa-download">&nbsp;</i>Download PDF
+            <AiOutlineCloudDownload>&nbsp;</AiOutlineCloudDownload> Download PDF
           </Button>
         </Row>
         <Row className="resume">
@@ -120,7 +121,7 @@ function Resume() {
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-            <i className="fas fa-download">&nbsp;</i>Download PDF
+            <AiOutlineCloudDownload>&nbsp;</AiOutlineCloudDownload> Download PDF
           </Button>
         </Row>
       </Container>
