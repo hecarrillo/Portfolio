@@ -56,7 +56,8 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-user"></i> About
+                <li><a href="{{ site.baseurl }}/index.html"><i class='far fa-user'></i> Home</a></li>
+ About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
