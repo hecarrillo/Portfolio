@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import axios from "axios";
-import pdf from "../../Assets/Hector_CV.pdf";
+import pdf from "../../Assets/cv.pdf";
 import { AiOutlineCloudDownload } from "react-icons/ai"
 
 function Resume() {
