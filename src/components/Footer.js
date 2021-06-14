@@ -10,10 +10,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Original design by Soumyajit Behera. </h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>{year} HC</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -23,6 +20,24 @@ function Footer() {
                 style={{ color: "white" }}
               >
                 <i className="fab fa-github"></i>
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="https://www.hackerrank.com/h_carrillo"
+                style={{ color: "white" }}
+              >
+                <i className="fab fa-hackerrank"></i>
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="https://t.me/hector_carrillo"
+                style={{ color: "white" }}
+              >
+                <i className="fab fa-telegram"></i>
               </a>
             </li>
             

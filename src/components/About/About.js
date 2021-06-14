@@ -15,6 +15,13 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
+            md={5}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={laptopImg} alt="about" className="img-fluid" />
+          </Col>
+          <Col
             md={7}
             style={{
               justifyContent: "center",
@@ -23,16 +30,9 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Hi <strong className="purple">stranger!</strong>
             </h1>
             <Aboutcard />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -41,15 +41,17 @@ function About() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-cplusplus-line" />
           <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
           <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-nodejs-plain-wordmark " />
+          <Techstack iconName="devicon-java-plain-wordmark" />
+          <Techstack iconName="devicon-amazonwebservices-plain-wordmark" />
+          <Techstack iconName="devicon-matlab-plain" />
           <Techstack iconName="devicon-express-original-wordmark" />
           <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          <Techstack iconName="devicon-graphql-plain-wordmark" />
+          <Techstack iconName="devicon-mysql-plain-wordmark" />
+
+
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
@@ -57,10 +59,7 @@ function About() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-linux-plain" />
           <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-anaconda" />
           <Techstack iconName="cib-postman" />
-          <Techstack iconName="cib-zeit" />
-          <Techstack iconName="cib-heroku" />
         </Row>
         <Github />
       </Container>

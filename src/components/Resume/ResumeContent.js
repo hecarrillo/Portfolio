@@ -4,7 +4,7 @@ function ResumeContent(props) {
   return (
     <div className="resume-item">
       <h5 className={props.title ? "resume-title" : "resume-no-title"}>
-        {props.title}
+        {props.title} <a href={props.url}>{props.company}</a> 
       </h5>
       <p>
         <em>{props.date}</em>

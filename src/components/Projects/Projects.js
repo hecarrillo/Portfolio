@@ -1,18 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import ac2oMe from "../../Assets/Projects/ac2oTeam.webp";
+import panterasMe from "../../Assets/Projects/panteras_group.jpg"
+import firstglobal from "../../Assets/Projects/firstglobal.jpg"
+import landrover from "../../Assets/Projects/landrover.jpg"
 
 function Projects() {
   return (
@@ -20,85 +16,61 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My most interesting <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        {/* <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        </p> */}
+        <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ac2oMe}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="AC2O"
+              description="Responsible for developing a control and telemetry system on board of a physics
+              experiment using a RaspberryPi and Python to handle the automation and sensor
+              data retrieval. Launched to the stratosphere in partnership with the Canadian Space
+              Agency and CNES France at the Timmins Stratospheric Ballon Base."
+              link="https://news.ok.ubc.ca/2019/07/24/ubco-students-put-cosmic-ray-research-aloft/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={panterasMe}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Panteras 2283"
+              description="Responsible for developing control and automation software forthe FRC
+              Competition Robot using LABVIEW deployed to NIroboRIO which won the national league and earned a spot in the World Championship in Houston, Texas"
               link="https://github.com/soumyajit4419/Editor.io"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={firstglobal}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="FIRST Global 2017"
+              description="National selected to represent Mexico in the FIRST Global Challenge held in
+              Washington D.C. as member of the programming team."
+              link="https://www.mipatente.com/mexico-es-bronce-en-first-global-challenge/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={landrover}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Land Rover 4x4 in Schools Championship"
+              description="National selected forthe 4x4 Land Rover Challenge held in Abu Dhabi, U.A.E. as
+              Design and Engineering lead."
+              link="https://www.panterasup.com/lr-4x4-in-schools"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eeg}
-              isBlog={false}
-              title="Emotion Predcition from EEG Signals"
-              description="Using EEG signals from 'AMIGOS' Dataset to extract features and train a classifier that helps in detection of human emotions from Brain Signals."
-              link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
-            />
-          </Col>
         </Row>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
-        </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
-        <Row style={{ justifyContent: "center" }}>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
-            />
-          </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
-            />
-          </Col>
-        </Row>
+
       </Container>
     </Container>
   );
