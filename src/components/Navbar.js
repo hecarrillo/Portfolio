@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../Assets/logo.png";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import {AiOutlineHome} from "react-icons/ai";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -47,7 +48,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/Portfolio" onClick={() => updateExpanded(false)}>
-                <i className="fas fa-home"></i> Home
+                <AiOutlineHome/> Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
