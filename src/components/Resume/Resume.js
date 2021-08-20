@@ -69,8 +69,8 @@ function Resume() {
               title="BACKEND DEVELOPER"
               date="MAY 2020 - PRESENT"
               content={[
-                "Implementing and designing AWS architecture to manage content and product data for vendors. This will allow them to sell in more than 100 international digital retailers such as Walmart and Amazon.",
-                "Designed and maintaining a SQL Database based on an Excel of around 750k data entries, which I analysed and condensed 40% of it, allowing faster access through REST APIs.",
+                "Implementing and designing AWS architecture to manage content and product data for vendors (+350). This will allow them to sell in more than 100 international digital retailers such as Walmart and Amazon seamlessly.",
+                "Designed and maintaining a MySQL DB, constructed from non-normalized data sources. This was done through ETL processes and data analysis. Achieved a size reduction of over 50% eliminating redundant and waste data.",
               ]}
             />
           </Col>
