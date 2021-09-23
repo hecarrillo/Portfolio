@@ -48,8 +48,8 @@ function Resume() {
               title="SOFTWARE ENGINEERING INTERN"
               date="March 2020 - August 2020"
               content={[
-                "Implemented and optimized web scrapers using JavaScript (Node.js environment) deployed to AWS for the data mining division.",
-                "Improved reliability of the team ́s API increasing uptime from 60% - 70% to 95% on average by creating backup mechanisms such as circuit breakers and cache optimization.",
+                "Implemented and optimized web scrapers using JavaScript (Node.js environment) deployed to AWS for the data mining division",
+                "Upgraded the internal API resulting in 95% uptime, a 30% improvement over the older process. Achieved by creating backup mechanisms such as circuit breakers and refactoring web scrapers, as well as implementing Redis caching.",
               ]}
             />
             <Resumecontent
@@ -58,9 +58,8 @@ function Resume() {
               title="BACKEND DEVELOPER - FREELANCE"
               date="JANUARY 2021 - MAY 2021"
               content={[
-                "Worked with a new startup company (founded May 2020) to implement and design their new AWS back-end architecture.",
-                "Implemented REST APIs to provide various services for the company such as authentication, payments and email sending endpoints.",
-                "Designed, deployed and maintained a NoSQL Database using DynamoDB (AWS) with GraphQL endpoints. It has been tested with 100+ people in the beta phase of the project providing reliable and secure access (using Cognito authentication) to data."
+                "Implemented initial back end cloud infraestructure for a startup building a web app for competitive shooting. Worked mainly to provide authentication, payments, communications and database CRUD operations endpoints via REST APIs using Node.js.",
+                "Designed, deployed and maintained a NoSQL Database using DynamoDB (AWS) with GraphQL endpoints. It has been tested with 100+ people in the beta phase of the project providing reliable and secure access (using Cognito authentication)"
               ]}
             />
             <Resumecontent
@@ -69,8 +68,8 @@ function Resume() {
               title="BACKEND DEVELOPER"
               date="MAY 2020 - PRESENT"
               content={[
-                "Implementing and designing AWS architecture to manage content and product data for vendors (+350). This will allow them to sell in more than 100 international digital retailers such as Walmart and Amazon seamlessly.",
-                "Designed and maintaining a MySQL DB, constructed from non-normalized data sources. This was done through ETL processes and data analysis. Achieved a size reduction of over 50% eliminating redundant and waste data.",
+                "Implementing and designing back end cloud infraestructure to manage user and product data for vendors in a new web app. The platform allows them to manage their products and sell in more than 100 digital retailers seamlessly. Currently available for public use with more than 300 active users.",
+                "Designed and maintaining a MySQL DB, constructed from various non-normalized data sources. This was done through ETL processes and data analysis using Python. Achieved a 50% data size reduction by normalization and redundancy elimination while keeping data integrity.",
               ]}
             />
           </Col>
@@ -78,7 +77,7 @@ function Resume() {
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="INSTITUTO POLITÉCNICO NACIONAL"
-              date="JAN 2021 - MAY 2025"
+              date="JAN 2021 - DEC 2024"
               content={["Computer Engineering @ Computer Science College (ESCOM)"]}
             />
             <Resumecontent

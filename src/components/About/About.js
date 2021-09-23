@@ -9,7 +9,7 @@ import laptopImg from "../../Assets/about.png";
 import { FaPython, FaJava, FaAws } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io"
 import { DiGitBranch } from "react-icons/di"
-import { SiCplusplus, SiMathworks, SiReact, SiMysql, SiGraphql, SiUbuntu, SiPostman, SiAtom, SiVisualstudio} from "react-icons/si"
+import { SiCplusplus, SiMathworks, SiReact, SiMysql, SiGraphql, SiUbuntu, SiAtom, SiVisualstudio} from "react-icons/si"
 
 function About() {
   return (
